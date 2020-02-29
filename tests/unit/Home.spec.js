@@ -2,7 +2,6 @@ import { createLocalVue, mount, shallowMount } from '@vue/test-utils'
 import Home from '@/components/Home.vue'
 import vuetify from "vuetify"
 import ZipCodeInput from '@/components/ZipCodeInput.vue'
-import DisplayTemperature from '@/components/DisplayTemperature.vue'
 
 describe('Home.vue', () => {
   let wrapper;
