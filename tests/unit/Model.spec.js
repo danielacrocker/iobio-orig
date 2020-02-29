@@ -47,7 +47,7 @@ const fakeData = {
 
 it("calls fetch with correct url", ()=>{
   const fakeFetch = url =>{
-    expect(url).toBe("https://api.openweathermap.org/data/2.5/weather?zip=84102,us&appid=YOURAPICODE")
+    expect(url).toBe("https://api.openweathermap.org/data/2.5/weather?zip=84102,us&appid=fdd7fc11f91d2b0cd7b1ad083fd43d77")
     return new Promise(function(resolve){
     })
   }
