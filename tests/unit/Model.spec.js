@@ -80,4 +80,5 @@ describe("Kelvin to Fahrenheit converter", function() {
  it("should convert Kelvin temperature to Fahrenheit", function() {
    expect(model.convertToFahrenheit(270)).toBe(26);
  })
+ 
 })
